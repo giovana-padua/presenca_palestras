@@ -12,4 +12,4 @@ Route::get('/clientes', function () {
 
 Route::get('/inicio', [App\Http\Controllers\SiteController::class, 'index']);
 
-Route::get('/dupla', [App\Http\Controllers\Dupla::class, 'dupla'])
+Route::get('/dupla', [App\Http\Controllers\Dupla::class, 'dupla']);
